@@ -1,13 +1,13 @@
 <nav class="navbar navbar-expand navbar-dark blue-gradient">
 
-  <a class="navbar-brand" href="/"><i class="far fa-sticky-note mr-1"></i>memo</a>
+  <a class="navbar-brand" href="/"><i class="far fa-sticky-note mr-1"></i>Memo</a>
 
   <ul class="navbar-nav ml-auto">
  
   <!-- ユーザーがまだログインしていない状態の時のみ処理される -->
     @guest
     <li class="nav-item">
-      <a class="nav-link" href="">ユーザー登録</a>
+      <a class="nav-link" href="{{route('register')}}">ユーザー登録</a>
     </li>
   @endguest
 
